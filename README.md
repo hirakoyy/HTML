@@ -1,10 +1,3 @@
 # HTML Projects
 
-This folder contains various HTML-based projects, demos, and experiments.  
-Each file or subfolder may demonstrate specific concepts such as layout, forms, animations, or integrations with CSS and JavaScript.
-
-## Contents
-- **index.html** – Main entry point or demo page.
-- **styles/** – CSS styles for visual design and layout.
-- **scripts/** – JavaScript files for interactivity.
-- **assets/** – Images, icons, and other static files.
+This folder contains various HTML-based projects, demos, and experiments.

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>List</title>
+  </head>
+  <body style="background-image: url()">
+    <h1>Belajar List</h1>
+    <h2>Ordered list (ol)</h2>
+    <!--ini adalah ol, bisa angka romawi, angka biasa, dan huruf dengan atribut 'type'-->
+    <ol>
+      <li>Sesuatu</li>
+      <li>Sesuatu</li>
+      <li>Sesuatu</li>
+      <li>Sesuatu</li>
+      <li>Sesuatu</li>
+    </ol>
+    <ol type="i">
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ol>
+    <hr />
+    <h2>Unordered list</h2>
+    <ul>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+    <!--ada type juga di ul-->
+    <ul>
+      <li type="square">item</li>
+      <li type="disc">item</li>
+      <li type="none">item</li>
+      <li type="circle">item</li>
+    </ul>
+    <!--ol>li*5 contoh syntax-->
+    <h3>Mengubah tipe list menjadi gambar</h3>
+    <ul
+      style="
+        list-style-image: url(https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico);
+      "
+    >
+      <li>php</li>
+      <li>japaskrip</li>
+      <li>golang</li>
+    </ul>
+    <hr />
+    <h2>Description list</h2>
+    <dl>
+      <dt>Kata 1</dt>
+      <dd>Definisi 1</dd>
+      <dt>Kata 2</dt>
+      <dd>Definisi 2</dd>
+      <dt>Kata 3</dt>
+      <dd>Definisi 3</dd>
+    </dl>
+    <hr />
+    <h2>List di dalam list</h2>
+    <h3>Tipe tipe Binatang</h3>
+    <ol>
+      <li>
+        Mamalia
+        <ul>
+          <li>Monyet</li>
+          <li>Paus</li>
+          <li>Gajah</li>
+        </ul>
+      </li>
+      <li>
+        Burung
+        <ul>
+          <li>Kakatua</li>
+          <li>Cendrawasih</li>
+          <li>Kutilang</li>
+        </ul>
+      </li>
+    </ol>
+  </body>
+</html>

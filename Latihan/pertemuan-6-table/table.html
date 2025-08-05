@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table</title>
+  </head>
+  <body>
+    <!--ada atribut border, cellpadding, dan bgcolor-->
+    <table border="1" cellpadding="10">
+      <!--tr adalah table row, td adalah table data-->
+      <tr>
+        <td bgcolor="red">baris 1 kolom 1</td>
+        <td bgcolor="purple">baris 1 kolom 2</td>
+        <td>baris 1 kolom 3</td>
+      </tr>
+      <tr bgcolor="yellow">
+        <td>baris 2 kolom 1</td>
+        <td>baris 2 kolom 2</td>
+        <td>baris 2 kolom 3</td>
+      </tr>
+    </table>
+    <br />
+    <h1>rowspan and colspan</h1>
+    <table border="1" cellpadding="10">
+      <tr>
+        <th rowspan="2" bgcolor="yellow">Januari (rowspan)</th>
+        <th colspan="2" bgcolor="green">Panen (colspan)</th>
+      </tr>
+      <tr>
+        <td>Padi</td>
+        <td>Kacang</td>
+      </tr>
+      <tr>
+        <td>Januari</td>
+        <td>500 kg</td>
+        <td>400 kg</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1" cellpadding="10">
+      <tr>
+        <th colspan="3" bgcolor="yellow">Produk Unggulan</th>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1A5hCPdDCnhHmN3FaRaq7EYDJm3BsYgvQQ&s"
+            alt=""
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Nama</td>
+        <td>Frutiger aero</td>
+      </tr>
+      <tr>
+        <td>Harga</td>
+        <td>Rp 192.800</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Belajar Membuat Form</h1>
+
+    <form action="login.php" method="">
+      <input type="text" name="username" />
+      <input type="password" name="password" />
+      <input type="submit" />
+      <!--atribut "name" berfungsi untuk menjadi kunci dan variable yang akan dikirim  ke server-->
+    </form>
+    <hr />
+    <fieldset>
+        <legend>Login</legend>
+      <h1>Latihan Membuat Login</h1>
+      <form action="login.php" method="post">
+        <p>
+          <label>Username</label>
+          <input type="text" name="username" placeholder="Enter Username" />
+        </p>
+        <p>
+          <label>Password</label>
+          <input type="text" name="" placeholder="Password" />
+        </p>
+        <p>
+          <label for=""
+            ><input type="checkbox" name="remember" value="remember" />Remember
+            me</label
+          >
+        </p>
+        <p>
+          <input type="submit" name="submit" value="Log In" />
+        </p>
+      </form>
+    </fieldset>
+  </body>
+</html>

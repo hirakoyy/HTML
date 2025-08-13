@@ -1,0 +1,22 @@
+h1 {
+  color: blueviolet;
+  font-family: courier;
+}
+h2 {
+  font-family: helvetica;
+}
+p {
+  font-family: verdana;
+  font-size: large;
+}
+i {
+  font-family: times-new-roman;
+  color: red;
+}
+img {
+  width: 700px;
+  height: 500px;
+  background-color: brown;
+  border-radius: 20px;
+  padding: 20px;
+}

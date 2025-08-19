@@ -1,0 +1,22 @@
+/* h1,
+h2,
+h3 {
+  color: blueviolet;
+  font-family: sans-serif;
+} */
+p {
+  font-family: "trebuchet ms";
+}
+.bg-title {
+  background-color: bisque;
+}
+#input {
+  color: aqua;
+}
+.input {
+  color: rgb(105, 0, 0);
+}
+input{background-color: cadetblue;}
+footer{
+    color: chocolate;
+}

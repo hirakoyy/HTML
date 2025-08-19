@@ -1,12 +1,13 @@
-p {
-  font-family: arial;
-  line-height: 2em;
-}
-h2 {
-  font-family: Arial;
+h1 {
   color: brown;
 }
-i {
-  font-family: sans-serif;
+p {
   color: blue;
+}
+h2 {
+  color: seagreen;
+}
+.external-css {
+  color: violet;
+  font-size: 25px;
 }

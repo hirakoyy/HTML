@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+p {
+  font-family: cambria;
+}
+i {
+  color: brown;
+}
+.bg-beige {
+  background-color: beige;
+}
+.bg-pink {
+  background-color: orchid;
+}
+.text-cadetblue {
+  color: cadetblue;
+}
+.text-red {
+  color: red;
+}
+.text-dark-green {
+  color: darkgreen;
+}
+.font-20px {
+  font-size: 20px;
+}

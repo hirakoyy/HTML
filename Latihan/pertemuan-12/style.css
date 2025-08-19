@@ -1,0 +1,13 @@
+h2 {
+  color: blue;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+/*pake hashtag karena id*/
+#header {
+  background: grey;
+}
+input [type="text"] {
+  background: yellow;
+}

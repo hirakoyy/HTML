@@ -1,0 +1,49 @@
+h1 {
+  font-size: 40px;
+}
+.font-big {
+  font-size: 32px;
+}
+
+.font-small {
+  font-size: 8px;
+}
+.lighter {
+  font-weight: lighter;
+}
+.normal {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
+}
+.bold-by-num {
+  font-weight: 500;
+}
+.font-weight {
+  font-size: 20px;
+}
+blockquote {
+  font-style: oblique;
+}
+.sans {
+  font-family: sans-serif;
+}
+.serif {
+  font-family: serif;
+}
+.monospace {
+  font-family: monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
+.font-family {
+  font-size: 50px;
+}

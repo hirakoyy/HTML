@@ -1,0 +1,22 @@
+body {
+  background-image: url(https://d7hftxdivxxvm.cloudfront.net/?height=675&quality=80&resize_to=fill&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F4zKXGz8_XLjCJDAp-Cz3yg%252FMag_abstract%2Bpainting%2Bgood.jpeg&width=1200);
+  background-repeat: repeat-y;
+  background-size: 100vw;
+  font-family: helvetica;
+  text-align: justify;
+}
+header {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10%;
+  letter-spacing: 10px;
+  font-size: large;
+}
+main {
+  text-align: justify;
+  background-color: rgb(255, 255, 255);
+
+  padding: 40px;
+  margin: 10%;
+}

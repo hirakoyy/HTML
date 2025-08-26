@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-shadow: 2px 2px 3px rgb(136, 77, 77);
+}
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg);
+  background-repeat: no-repeat;
+  background-size: vw;
+}

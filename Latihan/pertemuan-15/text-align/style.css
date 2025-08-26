@@ -1,0 +1,40 @@
+header {
+  background: #833ab4;
+  background: linear-gradient(
+    90deg,
+    rgb(189, 124, 233) 0%,
+    rgb(226, 96, 96) 40%,
+    rgb(224, 173, 100) 100%
+  );
+}
+header h1 {
+  text-align: center;
+}
+header p {
+  text-align: justify;
+}
+
+.arab {
+  direction: rtl;
+}
+.strike {
+  text-decoration: line-through;
+}
+.underline {
+  text-decoration: underline;
+}
+.overline {
+  text-decoration: overline;
+}
+.wavy {
+  text-decoration: underline wavy white;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}

@@ -1,0 +1,54 @@
+p {
+  color: purple;
+  text-align: justify;
+  line-height: 1.5;
+}
+p.paragraf {
+  color: cadetblue;
+  font-size: 10px;
+  font-style: italic;
+}
+#halaman_utama {
+  background-color: burlywood;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+/* selector atribut */
+input [type="text"] {
+  border-color: aquamarine;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+}
+/* pseudo selector */
+a:hover {
+  border: 2px solid blue;
+  text-decoration: none;
+  background-color: white;
+  color: blue;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #017cff;
+}
+/* bintang (*) untuk universal */
+/* * {
+  border: 1px solid red; */
+
+a {
+  border: 2px solid blue;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+/* pseudo element */
+/* h1::before {
+  content: "Selamat datang";
+  font-size: 16px;
+  color: grey;
+} */
+h1::first-letter {
+  font: 32px;
+  color: red;
+}

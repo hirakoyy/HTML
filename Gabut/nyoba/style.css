@@ -7,6 +7,8 @@ body {
   text-align: justify;
 }
 header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   width: 800px;
   text-align: center;
   background-color: white;
@@ -15,6 +17,7 @@ header {
   letter-spacing: 5px;
   font-size: large;
   box-sizing: border-box;
+  backdrop-filter: blur(10px);
 }
 main {
   width: 800px;

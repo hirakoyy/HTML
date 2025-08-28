@@ -1,0 +1,49 @@
+/* p {
+  color: blue;
+}
+div {
+  color: green;
+}
+b {
+  font-size: 20px;
+}
+
+.pink{color: pink;} */
+#header {
+  background-color: teal;
+  color: white;
+  height: 100px;
+  padding: 100px;
+  text-align: center;
+}
+input[type="text"] {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+}
+/* a {
+  color: white;
+}
+a:hover {
+  background-color: aqua;
+} */
+a {
+  color: white;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.home:hover {
+  color: teal;
+  text-decoration: none;
+  background-color: white;
+}
+.about:hover {
+  background-color: red;
+}
+p::first-line {
+  color: magenta;
+}

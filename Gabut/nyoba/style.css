@@ -30,3 +30,10 @@ main {
   margin: 0 auto;
   box-sizing: border-box;
 }
+.warning {
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding: 15px;
+  border-left-color: #edac2a;
+  background-color: #ffe8bc;
+}

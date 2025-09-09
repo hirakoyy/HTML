@@ -17,7 +17,6 @@ header {
   letter-spacing: 5px;
   font-size: large;
   box-sizing: border-box;
-  backdrop-filter: blur(10px);
 }
 main {
   width: 800px;

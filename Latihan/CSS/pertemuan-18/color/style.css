@@ -1,0 +1,18 @@
+.color-name {
+  color: blue;
+}
+h1 {
+  color: purple;
+}
+h2 {
+  color: rgb(225 99 71);
+}
+div {
+  background: rgba(255, 99, 17, 0.5);
+}
+.hsl {
+  background-color: hsl(120, 100%, 50%);
+}
+.hsla {
+  background-color: hsla(120, 100%, 50%, 0.7);
+}

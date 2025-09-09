@@ -1,4 +1,5 @@
 body {
+  font-family: helvetica;
   margin: 0 auto;
 }
 h1 {
@@ -23,24 +24,30 @@ a {
   text-decoration: none;
 }
 header {
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5vw;
+  padding-right: 5vw;
   /* border: solid; */
   display: flex;
   justify-content: space-between;
 }
 main {
   margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 footer {
-  margin: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 nav {
   display: flex;
   gap: 40px;
 }
 nav a {
+  font-size: larger;
+
   color: black;
 }
 

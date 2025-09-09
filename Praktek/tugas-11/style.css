@@ -49,9 +49,14 @@ nav a {
 }
 .product {
   display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 45vw;
 }
 .details {
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 45vw;
   align-content: center;
 }

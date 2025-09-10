@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+nav a {
+  margin: 20px;
+  font-weight: bold;
+  font-size: large;
+  color: aliceblue;
+  text-decoration: none;
+  justify-content: space-between;
+}
+header {
+  top: 0;
+  position: sticky;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(165, 1, 31);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.logo {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+.logo img {
+  width: 4vw;
+  height: 4vw;
+}
+#hero {
+  font-size: x-large;
+  align-content: center;
+  text-align: center;
+  height: 800px;
+  color: white;
+  background-image: url(./media/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  width: 40vw;
+  display: inline-block;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+#tentang {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: x-large;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  align-content: center;
+  text-align: center;
+}
+#testimoni {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-content: center;
+}
+#testimoni fieldset {
+  margin: 0 auto;
+  width: 50vw;
+}
+#wahana {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: large;
+
+  align-content: center;
+  text-align: center;
+}
+
+.wahana-wahana {
+  margin-top: 50px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+
+  align-content: space-between;
+  display: flex;
+  gap: 10vw;
+}
+.wahana-wahana div {
+  width: 40vw;
+  font-size: x-large;
+  padding: 50px;
+  margin: 0 auto;
+  border: solid 2px gray;
+  text-align: center;
+  border-radius: 20px;
+}
+footer {
+  color: white;
+  background-color: brown;
+  text-align: center;
+  padding: 10px;
+}
+.user {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.user img {
+  width: 50px;
+}
+.user h1 {
+  display: inline;
+}
+.review-star {
+  font-size: xx-large;
+  display: inline;
+  color: rgb(255, 200, 0);
+}
+.review-top {
+  display: flex;
+  gap: 20px;
+}

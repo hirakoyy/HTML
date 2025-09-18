@@ -1,0 +1,75 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  align-items: center;
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo img {
+  width: 30px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main {
+  margin: 0 auto;
+  align-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+#katalog {
+  margin: 0 auto;
+  align-content: center;
+  display: block;
+}
+h1 {
+  text-align: center;
+}
+.cards {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10vh;
+}
+.cards div {
+  align-content: center;
+  margin: 0 auto;
+  max-width: 300px;
+}
+.cards div img {
+  border-radius: 100px;
+  margin: 0 auto;
+  align-self: center;
+  width: 90%;
+}
+
+.card-jeruk,
+.card-mangga,
+.card-kiwi {
+  padding: 10px;
+  border: dashed 5px navy;
+  border-radius: 30px;
+}
+.card-jeruk:hover,
+.card-mangga:hover,
+.card-kiwi:hover {
+  padding: 10px;
+  border: dashed 5px red;
+  border-radius: 30px;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: xx-large;
+}
+footer {
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}

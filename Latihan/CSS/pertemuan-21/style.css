@@ -1,0 +1,66 @@
+body {
+  font-family: helvetica;
+}
+h1 {
+  font-size: 24px;
+  color: purple;
+}
+.font-small {
+  font-size: small;
+}
+.font-large {
+  font-size: large;
+}
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+.italic {
+  font-style: italic;
+}
+blockquote {
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid;
+  font-style: italic;
+  font-size: larger;
+}
+.font-families {
+  font-size: x-large;
+}
+.monospace {
+  font-family: monospace;
+}
+.courier {
+  font-family: "Courier New", Courier, monospace;
+}
+.serif {
+  font-family: serif;
+}
+.fantasy {
+  font-family: fantasy;
+}
+.sans {
+  font-family: sans;
+}
+.cursive {
+  font-family: cursive;
+}
+
+.epunda-slab-font {
+  font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.noto-sans-anatolian-hieroglyphs-regular {
+  font-family: "Noto Sans Anatolian Hieroglyphs", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

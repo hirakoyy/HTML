@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    header {
+      border-top: 5px solid black;
+      border-right: 5px dashed lime;
+      border-left: 5px dotted red;
+      border-bottom: 5px double purple;
+    }
+    .border-radius {
+      border: 2px solid;
+      border-radius: 20px;
+    }
+    .border-image {
+      align-content: center;
+      text-align: center;
+      border: 40px solid transparent;
+      border-image-source: url(./media/border-new.png);
+      border-image-slice: 80;
+      border-image-repeat: round;
+      border-radius: 24px;
+      max-width: 900px;
+      height: 200px;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <header><h1>Lorem ipsum dolor sit amet.</h1></header>
+    <main>
+      <div class="border-radius">
+        <h1>Border ni</h1>
+      </div>
+      <div class="border-image">
+        <h1>border bitchessss</h1>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

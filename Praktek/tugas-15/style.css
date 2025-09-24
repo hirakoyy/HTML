@@ -5,6 +5,7 @@ body {
 header {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 main {
   padding-left: 50px;
@@ -13,7 +14,7 @@ main {
 .product-wrapper,
 .feedback-wrapper {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 0 auto;
   align-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -33,5 +34,6 @@ img {
 }
 footer {
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
 }

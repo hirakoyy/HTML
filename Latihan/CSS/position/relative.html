@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative</title>
+    <style>
+      .inline-block {
+        background: blue;
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+        display: inline-block;
+      }
+      .relative {
+        position: relative;
+        top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Relative</h1>
+    <div>
+      <div class="inline-block"></div>
+      <div class="inline-block relative"></div>
+      <div class="inline-block"></div>
+    </div>
+  </body>
+</html>

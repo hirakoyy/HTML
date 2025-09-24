@@ -8,4 +8,6 @@ p {
   background-color: lightblue;
   width: 50%;
   height: 50vh;
+  align-content: center;
+  text-align: center;
 }

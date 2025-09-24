@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absolute</title>
+    <style>
+      .small-square {
+        position: absolute;
+        right: 0;
+        height: 80px;
+        width: 80px;
+        background: yellow;
+      }
+      .medium-square {
+        height: 200px;
+        width: 300px;
+        background: red;
+      }
+      .big-square {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        background: deepskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big-square">
+      <div class="medium-square">
+        <div class="small-square"></div>
+      </div>
+    </div>
+  </body>
+</html>

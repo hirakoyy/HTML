@@ -6,6 +6,8 @@ header {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 main {
   padding-left: 50px;
@@ -33,6 +35,8 @@ img {
   justify-content: space-between;
 }
 footer {
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;

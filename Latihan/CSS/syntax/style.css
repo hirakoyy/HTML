@@ -16,7 +16,9 @@ p {
 .input {
   color: rgb(105, 0, 0);
 }
-input{background-color: cadetblue;}
-footer{
-    color: chocolate;
+input {
+  background-color: cadetblue;
+}
+footer {
+  color: chocolate;
 }

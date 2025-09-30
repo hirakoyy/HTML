@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 16</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        z-index: 3;
+        top: 0px;
+        position: sticky;
+        padding: 20px;
+        background-color: silver;
+      }
+      .card-1 {
+        padding: 10px;
+        position: relative;
+        border: solid 1px gray;
+        margin: 30px auto;
+        width: 33vw;
+      }
+
+      .card-2 {
+        padding: 10px;
+        position: relative;
+        border: solid 1px gray;
+        width: 33vw;
+        margin: 0 auto;
+        height: 200px;
+      }
+      img {
+        position: relative;
+        width: 100%;
+      }
+      .badge {
+        z-index: 2;
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+      .tag {
+        display: inline;
+        padding: 10px;
+        background-color: silver;
+        position: relative;
+        top: 4px;
+      }
+      .box-a {
+        position: absolute;
+        z-index: 1;
+        background: cornflowerblue;
+        height: 100px;
+        width: 100px;
+      }
+      .box-b {
+        position: absolute;
+        z-index: 2;
+        background: lightblue;
+        height: 100px;
+        width: 100px;
+        left: 30px;
+        top: 30px;
+      }
+      .help {
+        position: fixed;
+        right: 16px;
+        bottom: 16px;
+        background-color: silver;
+        border: solid black 1px;
+        padding: 10px;
+      }
+      footer {
+        text-align: center;
+        height: 100vw;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header Sticky</header>
+    <main>
+      <div class="card-1">
+        <div class="badge">New</div>
+        <img src="./assets/play-6865967_640.jpg" alt="image" />
+        <h1>Judul Card</h1>
+        <div class="tag">Tag</div>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="card-2">
+        <div class="box-a">A</div>
+        <div class="box-b">B</div>
+      </div>
+    </main>
+    <footer><p>By Hiraki Prayata | Tugas #16</p></footer>
+    <div class="help">↑</div>
+  </body>
+</html>

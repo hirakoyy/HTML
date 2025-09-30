@@ -45,6 +45,7 @@ main {
   margin: 0 auto;
 }
 #hero {
+  padding: 100px;
   align-items: center;
   height: 90vh;
   background: url(../asset/hero_bg.png);
@@ -56,6 +57,7 @@ main {
 #hero h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  margin-top: 100px;
 }
 #hero p {
   font-size: 1.2rem;
@@ -66,4 +68,7 @@ main {
   display: flex;
   flex-direction: row;
 }
-.visi, .misi{text-align: center;}
+.visi,
+.misi {
+  text-align: center;
+}

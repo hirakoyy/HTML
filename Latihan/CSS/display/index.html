@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .heading {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .subheading {
+        padding-left: 30px;
+      }
+      div span {
+        padding: 10px;
+        display: block;
+      }
+      .box-a {
+        display: inline-block;
+        background-color: peachpuff;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+      }
+      .box-b {
+        display: inline-block;
+        background-color: lightcoral;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+      }
+      #none {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Display</h1>
+
+    <p>
+      This is an
+      <span style="color: red"> inline text</span>
+      inside a paragraph
+    </p>
+    <div style="background-color: lightblue; padding: 10px">
+      This is a div element (block)
+    </div>
+    <hr />
+    <h2>Block Display Example</h2>
+    <div>
+      <span class="heading">Pelatihan</span>
+      <span class="subheading">Kurikulum</span>
+      <span class="subheading">Materi</span>
+      <span class="subheading">Lokasi</span>
+    </div>
+    <div>
+      <span class="heading">Perusahaan</span>
+      <span class="subheading">Tim</span>
+      <span class="subheading">Visi dan Misi</span>
+    </div>
+    <hr />
+    <h1></h1>
+    <h2>Inline-Block Display Example</h2>
+    <div class="box-a">Box A</div>
+    <div class="box-b">Box B</div>
+    <hr />
+    <h2>None Display Example</h2>
+    <div id="none">Hello, I'm an element with "display: none"!</div>
+    <p>
+      of course you wont see it, its none! check the HTML structure on inspect
+      element!
+    </p>
+    <br />
+    <p style="text-align: center">&copy; Hiraki Prayata 2025</p>
+  </body>
+</html>

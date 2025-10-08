@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contoh Input Panjang</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .box {
+        margin-bottom: 20px;
+      }
+      input,
+      textarea {
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .long {
+        width: 400px; /* input lebih panjang */
+      }
+      .full {
+        width: 100%; /* lebar penuh */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contoh Input Text Memanjang</h1>
+
+    <div class="box">
+      <p><b>Input biasa (default):</b></p>
+      <input type="text" placeholder="Tulis sesuatu..." />
+    </div>
+
+    <div class="box">
+      <p><b>Input lebih panjang (CSS width):</b></p>
+      <input type="text" class="long" placeholder="Input panjang 400px" />
+    </div>
+
+    <div class="box">
+      <p><b>Input full width (100% dari layar):</b></p>
+      <input type="text" class="full" placeholder="Lebar penuh" />
+    </div>
+
+    <div class="box">
+      <p><b>Textarea (untuk teks banyak baris):</b></p>
+      <textarea placeholder="Tulis teks panjang di sini..."></textarea>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  align-items: center;
+  background: linear-gradient(
+    450deg,
+    rgb(14, 182, 243) 0%,
+    rgb(0, 84, 136) 100%
+  );
+}
+img {
+  margin: 0 40%;
+
+  width: 20%;
+}
+h2 {
+  color: rgb(0, 79, 106);
+}
+header,
+footer {
+  padding: auto;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  background-color: #2878b6;
+}
+main {
+  align-items: center;
+  max-width: 700px;
+  margin: 50px auto;
+}
+#about,
+#keahlian,
+#kontak {
+  background: white;
+  margin: 20px auto;
+  border-radius: 20px;
+
+  padding: 20px;
+  max-width: 700px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,11 @@
+main {
+  padding: 0 10vw;
+}
+.side-nav {
+  top: 30vh;
+  position: fixed;
+  float: left;
+}
+.nav-icon a img {
+  width: 80px;
+}

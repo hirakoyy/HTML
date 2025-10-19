@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS List</title>
+  </head>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    ul.circle {
+      list-style-type: circle;
+    }
+    ul.square {
+      list-style-type: square;
+    }
+    ol.upper-roman {
+      list-style-type: upper-roman;
+    }
+    ol.lower-alpha {
+      list-style-type: lower-alpha;
+    }
+    ol.none {
+      list-style-type: none;
+    }
+    .padding-0 {
+      padding: 0;
+    }
+    /* makes the circle list gone */
+    .horizontal-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background-color: blue;
+    }
+    /* style for each menu item */
+    .horizontal-menu li {
+      margin: 0 15px;
+    }
+    /* menu link style */
+    .horizontal-menu li a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    /* hover effect */
+    .horizontal-menu li a:hover {
+      background-color: red;
+    }
+    /* makes the circle list gone */
+    .vertical-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 320px; /* menu width */
+      background-color: blue;
+    }
+    /* style for each menu item */
+    .vertical-menu li {
+      border-bottom: 1px solid;
+    }
+    /* menu link style */
+    .vertical-menu li a {
+      display: block;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-color: red;
+    }
+    /* hover effect */
+    .vertical-menu li a:hover {
+      background-color: blue;
+    }
+    ul.outside {
+      list-style-position: outside;
+    }
+    ul.inside {
+      list-style-position: inside;
+    }
+    .image-list {
+      list-style-image: url(./asset/soft-drink.png);
+    }
+  </style>
+  <body>
+    <h1>CSS Lists</h1>
+    <h2>List Style Types</h2>
+    <h3>Ordered</h3>
+    <ul class="circle">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+    <ul class="square">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+    <h3>Unordered</h3>
+    <ol class="upper-roman">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ol>
+
+    <ol class="lower-alpha">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca-cola</li>
+    </ol>
+    <h3>Adapun None</h3>
+    <h4>Biasa:</h4>
+    <ol class="none">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca-cola</li>
+    </ol>
+    <h4>Padding 0:</h4>
+    <ol class="none padding-0">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca-cola</li>
+    </ol>
+    <!-- list style position -->
+    <h2>List Style Position</h2>
+    <h3>Outside</h3>
+    <ul class="outside">
+      <li>Contoh List Outside</li>
+      <li>Contoh List Outside</li>
+      <li>Contoh List Outside</li>
+    </ul>
+    <h3>Inside</h3>
+    <ul class="inside">
+      <li>Contoh List Inside</li>
+      <li>Contoh List Inside</li>
+      <li>Contoh List Inside</li>
+    </ul>
+    <!-- list style image -->
+    <h2>Image List</h2>
+    <ul class="image-list">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+    <hr />
+    <!-- Horizontal Nav -->
+    <h2>Horizontal Nav</h2>
+    <nav>
+      <ul class="horizontal-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Vertical Nav -->
+    <h2>Vertical Nav</h2>
+    <nav>
+      <ul class="vertical-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

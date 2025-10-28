@@ -1,90 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
-  box-sizing: border-box;
-  margin: 0;
-  justify-content: center;
-}
-h1 {
-  color: white;
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-  background: #545454;
-  background: linear-gradient(
-    90deg,
-    rgba(84, 84, 84, 1) 0%,
-    rgba(207, 207, 207, 1) 48%,
-    rgba(84, 84, 84, 1) 100%
-  );
-}
-.wrapper {
-  width: 100%;
-  justify-content: center;
-  align-items: stretch;
-  box-sizing: border-box;
-  display: flex;
-  font-family: sans-serif;
-  font-size: x-large;
-  padding: 4rem 2rem;
-  gap: 2rem;
-}
-.wrapper div {
-  width: 400px;
-  padding-bottom: 10px;
+  align-items: center;
+  height: 99vh;
   display: flex;
   flex-direction: column;
 }
-.ordered {
-  line-height: 2rem;
-  box-shadow: 0 20px 30px #aaa;
-  border-radius: 20px;
+h1 {
+  width: 100%;
   color: white;
   text-align: center;
+  font-size: 5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 56, 57, 1) 0%,
+    rgba(165, 165, 165, 1) 48%,
+    rgba(52, 56, 57, 1) 100%
+  );
+}
+
+.wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+h2 {
+  text-align: center;
+}
+.card1,
+.card2,
+.card3 {
+  border-radius: 30px;
+  gap: 2rem;
+  color: white;
+  width: 500px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+  font-size: x-large;
+  box-shadow: 0px 5px 20px #aaa;
+}
+.card1 {
   background-color: #fe6347;
 }
-ul,
-ol {
-  list-style-type: inside;
-}
-.grey {
-  background-color: #aaa;
-}
-li.grey::marker {
-  background-color: #aaa;
-}
-.unordered {
-  box-shadow: 0 20px 30px #aaa;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
+.card2 {
   background-color: #ffb901;
 }
-.description {
-  box-shadow: 0 20px 30px #aaa;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  background-color: #03a5f0;
+.card3 {
+  background-color: #01a4ef;
 }
-.description .list {
-  font-size: medium;
-}
-.list {
-  box-sizing: border-box;
-  margin: 0 auto;
-  height: 100%;
-  box-sizing: border-box;
-  display: flex;
-  text-align: start;
-  padding: 1rem 1rem;
-  color: black;
+.content {
+  padding: 2rem 0.5rem;
+  color: #111;
   background-color: white;
+  height: 100%;
 }
-
-dt {
-  font-weight: 600;
-  color: red;
+ol {
+  align-items: center;
 }
-
 li {
-  line-height: 2.5rem;
+  padding: 0 0.5rem;
+  line-height: 2;
+}
+.square {
+  list-style-type: square;
+}
+.circle {
+  list-style-type: circle;
+}
+.disc {
+  list-style-type: disc;
+}
+dt {
+  color: red;
+  font-weight: bold;
+}
+dd {
+  margin-left: 1rem;
+}
+
+.graybgyellowborder {
+  border-top: solid 1px yellow;
+  border-bottom: solid 1px yellow;
+  background-color: gainsboro;
+}
+.gray {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+  background-color: gainsboro;
 }

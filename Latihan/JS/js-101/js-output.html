@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS output</title>
+    <script>
+      alert("Welcome");
+
+      function sayHello() {
+        alert("Hello!");
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="sayHello()">Click me</button>
+
+    <!-- document.write -->
+    <script>
+      document.write("<h1>Hello World!</h1>");
+      document.write("<hr>");
+      document.write("<p>Learning JS</p>");
+      document.write("with <b>petanikode.com</b>");
+    </script>
+    <hr />
+    <!-- innerHTML -->
+    <h2>innerHTML</h2>
+
+    <div id="output"></div>
+    <script>
+      // object/variable
+      var hasil = document.getElementById("output");
+
+      // show output
+      hasil.innerHTML = "<p>i like turtles</p>";
+    </script>
+  </body>
+</html>

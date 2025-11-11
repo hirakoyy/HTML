@@ -1,0 +1,61 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+    border: 1px solid #000;
+    background-color: rgb(198, 236, 198);
+    padding: 10px;
+    width: 100%;
+}
+
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Vertical Auto-Scrolling */
+.vertical-marquee {
+    height: 100px; /* Adjust based on your needs */
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #000;
+    background-color: rgb(198, 236, 198);
+    box-sizing: border-box;
+}
+
+.marquee-content {
+    position: absolute;
+    top: 100%;
+    animation: vertical-marquee 6s linear infinite;
+}
+
+.vertical-marquee p {
+    margin: 0;
+    height: 100px; /* Same as the container height */
+    line-height: 100px; /* Center the text vertically */
+}
+
+@keyframes vertical-marquee {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -300%; /* Adjust based on the number of lines */
+    }
+}
+
+/* Pause on Hover */

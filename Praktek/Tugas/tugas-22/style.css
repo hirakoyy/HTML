@@ -1,0 +1,119 @@
+/* * {
+  border: solid 1px;
+} */
+body {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebebeb;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 0px 0px 20px #bbb5;
+  margin: 10vh auto;
+  width: 500px;
+  height: 650px;
+  box-sizing: border-box;
+  padding: 3rem;
+}
+.information {
+  align-items: center;
+  text-align: center;
+}
+.information p,
+h2 {
+  margin: 0;
+}
+.information h2:hover {
+  color: rgb(0, 72, 149);
+}
+.profession > p {
+  color: #484848;
+}
+.photo {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  width: 100px;
+  height: 100px;
+}
+.photo:hover {
+  scale: 1.1;
+}
+.photo img {
+  display: flex;
+  width: 100%;
+  border-radius: 100%;
+}
+.statistic-wrapper {
+  gap: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.statistic {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.statistic p:nth-child(1) {
+  margin: 0;
+  color: #484848;
+}
+.statistic p:nth-child(2) {
+  font-size: x-large;
+  margin: 0;
+  font-weight: bold;
+}
+.statistic p:nth-child(2):hover {
+  background-color: #484848;
+  color: white;
+}
+.desc {
+  text-align: center;
+  color: #484848;
+}
+.desc p::first-letter {
+  color: tomato;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.icon {
+  width: 2rem;
+  align-items: center;
+}
+.icon img {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+.icon img:hover {
+  opacity: 50%;
+}
+.cta {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  background-color: #055e96;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+button:hover {
+  background-color: #0770b1;
+}

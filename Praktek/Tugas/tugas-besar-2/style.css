@@ -1,9 +1,7 @@
 body {
   font-family: Helvetica;
   align-items: center;
-  background-image: url(./asset/bg.png);
-  background-size: cover;
-  filter: blur(10%);
+  background-color: rgb(176, 176, 176);
 }
 .post {
   background-color: white;
